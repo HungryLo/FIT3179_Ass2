@@ -1,0 +1,44 @@
+/* Use class name  */
+.header {
+    padding: 20px; /* some padding */
+    text-align: center; /* center the text */
+    background: #6ad5f3; /* green background */
+    color: black; /* black text color */
+  }
+
+/* Increase the font size of the <h1> element */
+.header h1 {
+    font-size: 40px;
+    width: 100%;
+  }
+
+.divider{
+    margin: auto;
+    background: #08446e;
+    padding: 10px;
+    color: white; 
+  }
+  
+.chart1_box{
+    text-align: center;
+}
+
+.chart1{
+    /* margin-left: 100px; */
+    background: none;
+}
+
+.chart2{
+    /* margin-left: 200px; */
+}
+
+.chart3{
+    margin-left: 200px;
+}
+
+.chart4{
+    /* margin-left: 200px; */
+}
+
+
+

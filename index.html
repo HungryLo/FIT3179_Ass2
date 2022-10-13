@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="events.css">
+
+    <!-- Essential Javascript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+
+<!-- Don't touch anything above this -->
+<!-- ########################################################################################################################### -->
+<title>FIT3179 Design Critique</title>
+</head>
+
+<body style="background-color:powderblue;">
+    <!-- Topic of domain -->
+    <div class="header">
+    <h1>Economies Around the World</h1>
+    </div>
+
+    <div class = "chart1_box">
+        <div id ="choro_map", class="chart1"></div>
+        <p>The choropleth map above shows <span><b>GDP per Capita</b></span> across the world. </p>
+        <p>Areas in white represent the sea, areas in light grey mean that data is not available for that country. </p>
+        <p>We observe that <strong>United States</strong> and <strong>Australia</strong> are some of the richest countries. Besides, we 
+        observe that the <strong>POOREST</strong> countries are mostly <strong>LAND-LOCKED</strong>.</p>
+    </div>
+    
+    <div class = "divider">
+        <h2>GDP Breakdown</h2>
+    </div>
+
+    <!-- pure grid group -->
+    <div class="pure-g">
+        <div class="pure-u-1-2">
+            <div id="line_chart", class="chart2"></div>
+            <p>The <strong>RICHEST</strong> continent in the world is <strong>North America</strong>, followed by <strong>Europe</strong>.</p>
+        </div>
+        <div class="pure-u-1-2">
+            <div id="stack_bar_chart", class="chart4"></div>
+            <p>The <strong>Service</strong> industry dominates the output for all of the countries above.</p>
+        </div>
+    </div>
+      <!-- end pure grid group -->
+
+    
+
+
+    <div class = "divider">
+        <h2>The Effects of GDP</h2>
+    </div>
+    
+    <div id="bubble_chart", class="chart3"></div>
+    <p>Poorer countries tend to have a shorter life expectancy while richer countries tend to have a longer life expectancy.</p>
+
+    <!-- Run the Javascript -->
+    <script src="vegalite_vis.JS"></script>
+
+</body>
+
+</html>
+
+
+    <!-- <div id="line_chart", class="chart2"></div> -->
+    <!-- <div id="bubble_chart", class="chart3"></div> -->
+
